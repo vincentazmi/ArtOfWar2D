@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7673618694398842268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3416753769548759344}
+  - component: {fileID: 5032520885690088006}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3416753769548759344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673618694398842268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5032520885690088006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673618694398842268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeffdabba4f61394eb5af0a4b0349793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundImagePrefab: {fileID: 5526130823917836837, guid: 73d285d8af5446b41a6e29b49b4a2768, type: 3}
+  menuBackgroundImage: {fileID: 21300000, guid: 35a19a0035aa7fa4289b1943a617804f, type: 3}
+  ingameBackgroundImage: {fileID: 21300000, guid: c3b2d8b06a1adec44b888f95446685ac, type: 3}
+  mainMenuButtonPrefab: {fileID: 6210524897714988792, guid: a32ccdbe45ba99d4dbaf2c42257229c9, type: 3}
+  mainMenuButtonSprites:
+  - {fileID: 21300000, guid: 0fdb8850c47f6084b9a14e73868ea746, type: 3}
+  - {fileID: 21300000, guid: 128a91fc155bc974b9661d308379b6aa, type: 3}
+  - {fileID: 21300000, guid: a6e24041d5c0d2e4b8d2202b5c794d85, type: 3}
+  controlButtonPrefab: {fileID: 5178562257077084961, guid: 0dde92e281e7e2d468ee513a63263939, type: 3}
+  controlsImages:
+  - {fileID: 21300000, guid: 09f75aa077686fa4998ee860e1dbef45, type: 3}
+  - {fileID: 21300000, guid: 57c3f9360aa01444c9a61fb3df8331b7, type: 3}
+  - {fileID: 21300000, guid: 6b93016a42a73094588af33e06e48194, type: 3}
+  - {fileID: 21300000, guid: 65b480f2e677d9b48815639e5b280b03, type: 3}
+  - {fileID: 21300000, guid: 96f643a751641c7489121b68ee3d64a9, type: 3}
+  controlsButtonImages:
+  - {fileID: 21300000, guid: 754625a72b1eeee4692b0d165a7ae648, type: 3}
+  - {fileID: 21300000, guid: 6374271d1dd6c6641b2222977486d786, type: 3}
+  - {fileID: 21300000, guid: fdf9d01b06e99074a9050aec607a9758, type: 3}
+  pauseMenuPrefab: {fileID: 6929390492662963337, guid: 5db730ec088d9b44299c41eeb123ed29, type: 3}
+  nextStateButtonImages:
+  - {fileID: 21300000, guid: 660dec744510d2a41b5be874791c187d, type: 3}
+  - {fileID: 21300000, guid: 20f011f3db00acb499e4823539a38953, type: 3}
+  - {fileID: 21300000, guid: 65b2acd899133e24aa22031cbecd2e7b, type: 3}
+  - {fileID: 21300000, guid: 86e82bd0e453118408d4838236210979, type: 3}
+  - {fileID: 21300000, guid: 8fac3ce0063fc4243bad49d960ae65d1, type: 3}
+  nextStateButtonPrefab: {fileID: 2574126362790681485, guid: 2b8e47fee2d36db4f9f5c8d25c1d3e33, type: 3}
+  diceImages:
+  - {fileID: 21300000, guid: 2de699df88019d344825d54c63214b83, type: 3}
+  - {fileID: 21300000, guid: 9b1e89de40ea3304b8c43706cf2db566, type: 3}
+  - {fileID: 21300000, guid: 950fb6bed09acc64c924217d5199d103, type: 3}
+  - {fileID: 21300000, guid: 82c465633c8116e43afa62cefdd7a4c5, type: 3}
+  - {fileID: 21300000, guid: 1b71a0b1436299e498ab9c2b99343f7a, type: 3}
+  - {fileID: 21300000, guid: edc9806bfac0d2c429da0dc689863748, type: 3}
+  dicePrefab: {fileID: 120222746302107645, guid: fd63949103edbc4479c31cb3a424ffcc, type: 3}
+  moneyTextPrefab: {fileID: 6289713805814335911, guid: bc4eef3e9aad61645865f9743c0131da, type: 3}
+  buyImages:
+  - {fileID: 21300000, guid: 2cb913af9bb15ba4eb177eca21444d95, type: 3}
+  - {fileID: 21300000, guid: c9dcf3f8e805a1f4981e469fae4d695e, type: 3}
+  - {fileID: 21300000, guid: 99a5cb21e6e312d4d8ef8bebed0cd58d, type: 3}
+  buyButtonPrefab: {fileID: 4061212487509090386, guid: d4c39b09ce9055747a8438eef9904f5c, type: 3}
+  ghostTroopPrefab: {fileID: 4165281152264053647, guid: 0b6ee91b1fb371b4fbffbe42a614b978, type: 3}
+  movementRangePrefab: {fileID: 8409369334908116991, guid: e806b42a9e5bd4e41ab72bfde23ef0f8, type: 3}
+  attackRangePrefab: {fileID: 8409369334908116991, guid: e3f6e368c4e552b498eba480eb3ec32e, type: 3}
+  winTextPrefab: {fileID: 5475503236280517989, guid: d63c9c03b810a3d48908fd63d844e039, type: 3}
